@@ -48,3 +48,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails'
 gem 'capybara' 
 gem 'shoulda-matchers'
+gem 'simple_form'
