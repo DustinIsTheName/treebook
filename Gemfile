@@ -7,6 +7,11 @@ gem 'rails', '4.2.0'
 group :development, :test do
 	gem 'sqlite3'
 end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
 #Use divise for login/signup
 gem 'devise'
 # Use SCSS for stylesheets
