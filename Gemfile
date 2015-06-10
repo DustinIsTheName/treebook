@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+group :development, :test do
+	gem 'sqlite3'
+end
 #Use divise for login/signup
 gem 'devise'
 # Use SCSS for stylesheets
